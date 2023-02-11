@@ -25,5 +25,5 @@ def reverse_string(string:str) -> str: #Con bucle for
 def reverse_string_str(string:str) -> str: #Recorriendo el string
     return string[::-1]
 
-print(reverse_string("Reverse String"))
-print(reverse_string_str("Reverse String 2"))
+print(reverse_string("Reverse string"))
+print(reverse_string_str("Reverse String two"))

@@ -1,9 +1,9 @@
 import unittest
 from Challenge8 import to_binary
 
-class TestIsAnagram(unittest.TestCase):
+class TestToBinary(unittest.TestCase):
 
-    def test_isAnagram(self):
+    def test_to_binary(self):
         self.assertEqual(to_binary(0),"0")
         self.assertEqual(to_binary(1),"1")
         self.assertEqual(to_binary(20),"10100")

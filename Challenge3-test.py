@@ -1,9 +1,9 @@
 import unittest
 from Challenge3 import isPrime
 
-class TestIsAnagram(unittest.TestCase):
+class TestIsPrime(unittest.TestCase):
 
-    def test_isAnagram(self):
+    def test_is_prime(self):
         self.assertFalse(isPrime(0))
         self.assertFalse(isPrime(1))
         self.assertFalse(isPrime(4))
